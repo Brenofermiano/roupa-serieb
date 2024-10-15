@@ -1,0 +1,9 @@
+/* styles.css ou seu arquivo de estilos */
+.card-img-top {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave */
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.05); /* Aumenta a imagem 5% */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+  }
